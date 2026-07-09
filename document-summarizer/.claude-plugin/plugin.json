@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Rick Goud"
+  },
+  "description": "Find and summarize documents stored in Kiteworks (docx, pdf, pptx, xlsx, and text formats) directly in chat, with compliance-aware handling of sensitivity labels and PII.",
+  "displayName": "kiteworks-document-summarizer",
+  "homepage": "https://kiteworks.com",
+  "keywords": [
+    "kiteworks",
+    "summarize",
+    "documents",
+    "compliance"
+  ],
+  "license": "Apache-2.0",
+  "name": "kiteworks-document-summarizer",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace-staging",
+  "version": "0.1.2"
+}

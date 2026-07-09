@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Best-effort direct-MCP duplicate report over Kiteworks folder metadata - groups files whose content fingerprint and size both match and shows the reclaimable space. Report only; nothing is moved or deleted. Productivity-grade and host-instruction-driven, not the audited compliance runtime.",
+  "displayName": "🗂️ Duplicate Finder Lite",
+  "homepage": "https://kiteworks.com",
+  "keywords": [
+    "kiteworks",
+    "duplicates",
+    "dedupe",
+    "storage",
+    "cleanup",
+    "productivity"
+  ],
+  "license": "Apache-2.0",
+  "name": "kiteworks-duplicate-finder-lite",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.1.0"
+}
