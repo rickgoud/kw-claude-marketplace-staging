@@ -15,7 +15,7 @@ The plugin finds the file, checks it's clean (antivirus/DLP status) and notes an
 ## Prerequisites
 
 - **A Kiteworks MCP connector**, connected and enabled for the conversation.
-- **The Filesystem extension**, connected with at least one allowed directory — required for binary formats (`.docx`, `.pdf`, `.pptx`, `.xlsx`, etc.). Without it, only text-based files (`.txt`, `.csv`, `.json`, `.xml`, `.md`) can be summarized.
+- **The Filesystem extension** — required only in standard Chat, and only for binary formats (`.docx`, `.pdf`, `.pptx`, `.xlsx`, etc.). In **Cowork**, this isn't needed at all: Cowork already gives Claude direct local file access as a core capability, so the plugin detects this and skips the extension requirement entirely. In Chat, without the extension, only text-based files (`.txt`, `.csv`, `.json`, `.xml`, `.md`) can be summarized.
 
 ## Why the Filesystem extension is needed
 
@@ -34,8 +34,8 @@ This skill has no dependency on the summarizer skill. To use it in a different p
 
 ## Known limitations
 
-- Binary files can't be read without the Filesystem extension (see above).
-- Cleanup of temporary local files is content-only (overwritten empty), not deletion — the extension has no delete tool today.
+- In standard Chat, binary files can't be read without the Filesystem extension (see above). This does not apply in Cowork.
+- In Chat, cleanup of temporary local files is content-only (overwritten empty), not deletion — the extension has no delete tool today. In Cowork, real deletion is possible since native file tools aren't limited this way.
 - If a file search matches more than one result, the skill will ask which one rather than guessing.
 - Encrypted files and image-only (non-OCR'd) scans aren't supported.
 

@@ -1,10 +1,31 @@
 ---
 name: kw-binary-file-bridge
 description: >
-  Use this skill whenever a task needs the actual content of a binary file (.docx, .pdf, .pptx, .xlsx, .doc, .ppt, .xls, images, archives) that lives on Kiteworks — or any other MCP-connected source whose tools can only download files to a local filesystem path rather than returning raw bytes directly in a tool result. This is a plumbing/infrastructure skill invoked by other skills (like kw-document-summarizer), not something a user asks for by name. Triggers include: a binary-read MCP tool (e.g. read_file_contents) rejecting a file as "not supported" or "binary not allowed"; another skill's workflow needing to get a binary file from an external source into Claude's own sandbox for processing (pandoc, pdf extraction, python-pptx, python-docx, etc.). Do NOT use this for text-based files (txt, csv, json, xml, md, log) — try the source's native text-read tool first; only fall back to this bridge when that is rejected or absent.
+  Use this skill whenever a task needs the actual content of a binary file (.docx, .pdf, .pptx, .xlsx, .doc, .ppt, .xls, images, archives) that lives on Kiteworks — or any other MCP-connected source whose tools can only download files to a local filesystem path rather than returning raw bytes directly in a tool result. This is a plumbing/infrastructure skill invoked by other skills (like kw-document-summarizer), not something a user asks for by name. Triggers include: a binary-read MCP tool (e.g. read_file_contents) rejecting a file as "not supported" or "binary not allowed"; another skill's workflow needing to get a binary file from an external source into Claude's own sandbox for processing (pandoc, pdf extraction, python-pptx, python-docx, etc.). This skill is surface-aware — it only requires the separate Filesystem extension in standard Chat; in Cowork sessions, native local file access already covers this and the skill skips the extension requirement entirely. Do NOT use this for text-based files (txt, csv, json, xml, md, log) — try the source's native text-read tool first; only fall back to this bridge when that is rejected or absent.
 ---
 
 # Kiteworks / MCP Binary File Bridge
+
+## Step 0 — Detect the runtime surface first
+
+This skill's whole reason for existing is that **standard Chat has no native bridge to a local filesystem** — Claude's environment there is a remote sandbox with no connection to the user's computer, which is exactly why the separate Filesystem extension/connector exists as a workaround.
+
+**Cowork is different and does not need this workaround.** In a Cowork session, Claude already has direct, native local file read/write access as a core product capability — the Claude Desktop app grants this for the session's connected workspace folder(s), with no separate connector involved. If you're running in Cowork, using the Filesystem extension bridge below is redundant and adds an unnecessary permission ask.
+
+**How to tell which surface you're in:** check what's already in your available tool list before assuming anything.
+- If native local file tools (read/write/edit a real path on the user's machine) are already present *without* being namespaced under a separate connector like `Filesystem:...` — you're in Cowork (or an equivalent surface with native local access). **Skip straight to the Cowork path below.** Do not search for or ask the user to install the Filesystem extension; it isn't needed.
+- If no native local file tools are present at all, and the only way to reach a local path is a distinct `Filesystem:` — namespaced connector that must be separately searched for and connected — you're in standard Chat. **Use the Prerequisites and Procedure sections below.**
+- If genuinely unsure, look at how the Kiteworks download tool's target path resolves: in Cowork it should land inside the session's connected workspace folder where your native tools can already see it, with no bridging step needed at all — try reading it directly first before reaching for anything else.
+
+### Cowork path (native local access already available)
+
+1. Pick a location inside the session's connected workspace folder (not an arbitrary system path) as the download target.
+2. Download the file there using the source MCP's "download to path" tool.
+3. Read it directly with your native file tools — no `copy_file_user_to_claude` step, no Filesystem extension involved.
+4. Process it with the appropriate format skill (docx, pdf, pptx, xlsx, etc.).
+5. If the workspace is meant to stay clean, remove the temp file with your native delete/file-management capability once done — Cowork's tools aren't limited the way the Chat-side extension is (see the known limitation below), so real deletion is possible here.
+
+Everything from here down (Prerequisites, Procedure, Known limitation) applies **only** to the standard-Chat path, where the Filesystem extension bridge is actually necessary.
 
 ## Why this exists
 

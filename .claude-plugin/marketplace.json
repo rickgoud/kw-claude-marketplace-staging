@@ -13,53 +13,41 @@
     {
       "name": "kiteworks-document-summarizer",
       "source": "./document-summarizer",
-      "version": "0.1.2",
-      "source_version": "0.1.2",
+      "version": "0.2.0",
       "description": "Find and summarize documents stored in Kiteworks (docx, pdf, pptx, xlsx, and text formats) directly in chat, with compliance-aware handling of sensitivity labels and PII.",
       "author": {
         "name": "Rick Goud"
-      },
-      "published_date": "2026-07-09",
-      "updated_date": "2026-07-09"
+      }
     },
     {
       "name": "kiteworks-duplicate-finder-lite",
       "source": "./duplicate-finder-lite",
       "version": "0.1.0",
-      "source_version": "0.1.0",
       "description": "Best-effort direct-MCP duplicate report over Kiteworks folder metadata - groups files whose content fingerprint and size both match and shows the reclaimable space. Report only; nothing is moved or deleted. Productivity-grade and host-instruction-driven, not the audited compliance runtime.",
       "author": {
         "name": "Kiteworks",
         "url": "https://kiteworks.com"
-      },
-      "published_date": "2026-07-09",
-      "updated_date": "2026-07-09"
+      }
     },
     {
       "name": "kiteworks-retention-sweeper-lite",
       "source": "./retention-sweeper-lite",
       "version": "0.3.0",
-      "source_version": "0.3.0",
       "description": "Best-effort direct-MCP scan of Kiteworks metadata for files past a retention threshold. Productivity-grade and host-instruction-driven - NOT the audited compliance runtime, not audit-defensible, and not a basis for deletion decisions.",
       "author": {
         "name": "Kiteworks",
         "url": "https://kiteworks.com"
-      },
-      "published_date": "2026-07-09",
-      "updated_date": "2026-07-09"
+      }
     },
     {
       "name": "kiteworks-storage-viz-lite",
       "source": "./storage-viz-lite",
       "version": "0.3.0",
-      "source_version": "0.3.0",
       "description": "Best-effort direct-MCP storage summary over Kiteworks folder metadata - totals, largest folders/files, cleanup candidates. Productivity-grade and host-instruction-driven, not the audited compliance runtime.",
       "author": {
         "name": "Kiteworks",
         "url": "https://kiteworks.com"
-      },
-      "published_date": "2026-07-09",
-      "updated_date": "2026-07-09"
+      }
     }
   ]
 }
