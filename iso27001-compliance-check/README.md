@@ -1,4 +1,4 @@
-# Iso27001 Compliance Check
+# ISO 27001 Compliance Check
 
 `v0.5.1` · updated 2026-07-14
 

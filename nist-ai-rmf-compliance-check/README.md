@@ -1,4 +1,4 @@
-# Nist Ai Rmf Compliance Check
+# NIST AI RMF Compliance Check
 
 `v0.6.1` · updated 2026-07-14
 

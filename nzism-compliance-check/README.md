@@ -1,4 +1,4 @@
-# Nzism Compliance Check
+# NZISM Compliance Check
 
 `v0.6.1` · updated 2026-07-14
 

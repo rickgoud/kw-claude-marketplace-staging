@@ -32,46 +32,46 @@ Explore and try each agent on the website — the list below links straight to e
 | Agent | Version | Links |
 |---|---|---|
 | Activity Digest | `1.0.2` | [`./activity-digest/`](./activity-digest/) · [live](https://marketplace.kiteworkslabs.com/catalog/activity-digest) |
-| Ccpa Compliance Check | `0.5.1` | [`./ccpa-compliance-check/`](./ccpa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ccpa-compliance-check) |
-| Cis Controls Compliance Check | `0.5.1` | [`./cis-controls-compliance-check/`](./cis-controls-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/cis-controls-compliance-check) |
-| Cmmc Compliance Check | `0.5.1` | [`./cmmc-compliance-check/`](./cmmc-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/cmmc-compliance-check) |
+| CCPA Compliance Check | `0.5.1` | [`./ccpa-compliance-check/`](./ccpa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ccpa-compliance-check) |
+| CIS Controls Compliance Check | `0.5.1` | [`./cis-controls-compliance-check/`](./cis-controls-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/cis-controls-compliance-check) |
+| CMMC Compliance Check | `0.5.1` | [`./cmmc-compliance-check/`](./cmmc-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/cmmc-compliance-check) |
 | Contract Radar | `1.0.3` | [`./contract-radar/`](./contract-radar/) · [live](https://marketplace.kiteworkslabs.com/catalog/contract-radar) |
 | Document Summarizer | `0.5.0` | [`./document-summarizer/`](./document-summarizer/) · [live](https://marketplace.kiteworkslabs.com/catalog/document-summarizer) |
-| Dora Compliance Check | `0.6.1` | [`./dora-compliance-check/`](./dora-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/dora-compliance-check) |
-| Dpdpa Compliance Check | `0.5.1` | [`./dpdpa-compliance-check/`](./dpdpa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/dpdpa-compliance-check) |
+| DORA Compliance Check | `0.6.1` | [`./dora-compliance-check/`](./dora-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/dora-compliance-check) |
+| DPDPA Compliance Check | `0.5.1` | [`./dpdpa-compliance-check/`](./dpdpa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/dpdpa-compliance-check) |
 | Duplicate Finder | `0.5.0` | [`./duplicate-finder/`](./duplicate-finder/) · [live](https://marketplace.kiteworkslabs.com/catalog/duplicate-finder) |
-| Ear Compliance Check | `0.5.1` | [`./ear-compliance-check/`](./ear-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ear-compliance-check) |
-| Eu Ai Act Compliance Check | `0.5.1` | [`./eu-ai-act-compliance-check/`](./eu-ai-act-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/eu-ai-act-compliance-check) |
-| Fedramp Compliance Check | `0.5.1` | [`./fedramp-compliance-check/`](./fedramp-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/fedramp-compliance-check) |
+| EAR Compliance Check | `0.5.1` | [`./ear-compliance-check/`](./ear-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ear-compliance-check) |
+| EU AI Act Compliance Check | `0.5.1` | [`./eu-ai-act-compliance-check/`](./eu-ai-act-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/eu-ai-act-compliance-check) |
+| FedRAMP Compliance Check | `0.5.1` | [`./fedramp-compliance-check/`](./fedramp-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/fedramp-compliance-check) |
 | Folder Expiry Audit | `0.1.1` | [`./folder-expiry-audit/`](./folder-expiry-audit/) · [live](https://marketplace.kiteworkslabs.com/catalog/folder-expiry-audit) |
-| Gdpr Compliance Check | `0.5.1` | [`./gdpr-compliance-check/`](./gdpr-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/gdpr-compliance-check) |
-| Hipaa Compliance Check | `0.5.1` | [`./hipaa-compliance-check/`](./hipaa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/hipaa-compliance-check) |
+| GDPR Compliance Check | `0.5.1` | [`./gdpr-compliance-check/`](./gdpr-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/gdpr-compliance-check) |
+| HIPAA Compliance Check | `0.5.1` | [`./hipaa-compliance-check/`](./hipaa-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/hipaa-compliance-check) |
 | Inbox Triage | `0.5.0` | [`./inbox-triage/`](./inbox-triage/) · [live](https://marketplace.kiteworkslabs.com/catalog/inbox-triage) |
 | Intake Form Builder | `0.1.0` | [`./intake-form-builder/`](./intake-form-builder/) · [live](https://marketplace.kiteworkslabs.com/catalog/intake-form-builder) |
 | Invoice Organizer | `0.5.0` | [`./invoice-organizer/`](./invoice-organizer/) · [live](https://marketplace.kiteworkslabs.com/catalog/invoice-organizer) |
-| Ism Au Compliance Check | `0.6.1` | [`./ism-au-compliance-check/`](./ism-au-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ism-au-compliance-check) |
-| Iso27001 Compliance Check | `0.5.1` | [`./iso27001-compliance-check/`](./iso27001-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso27001-compliance-check) |
-| Iso27701 Compliance Check | `0.5.1` | [`./iso27701-compliance-check/`](./iso27701-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso27701-compliance-check) |
-| Iso42001 Compliance Check | `0.6.1` | [`./iso42001-compliance-check/`](./iso42001-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso42001-compliance-check) |
-| Itar Compliance Check | `0.5.1` | [`./itar-compliance-check/`](./itar-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/itar-compliance-check) |
-| Lgpd Compliance Check | `0.5.1` | [`./lgpd-compliance-check/`](./lgpd-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/lgpd-compliance-check) |
+| ISM (Australia) Compliance Check | `0.6.1` | [`./ism-au-compliance-check/`](./ism-au-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/ism-au-compliance-check) |
+| ISO 27001 Compliance Check | `0.5.1` | [`./iso27001-compliance-check/`](./iso27001-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso27001-compliance-check) |
+| ISO 27701 Compliance Check | `0.5.1` | [`./iso27701-compliance-check/`](./iso27701-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso27701-compliance-check) |
+| ISO 42001 Compliance Check | `0.6.1` | [`./iso42001-compliance-check/`](./iso42001-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/iso42001-compliance-check) |
+| ITAR Compliance Check | `0.5.1` | [`./itar-compliance-check/`](./itar-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/itar-compliance-check) |
+| LGPD Compliance Check | `0.5.1` | [`./lgpd-compliance-check/`](./lgpd-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/lgpd-compliance-check) |
 | Naming Cleanup | `0.5.0` | [`./naming-cleanup/`](./naming-cleanup/) · [live](https://marketplace.kiteworkslabs.com/catalog/naming-cleanup) |
-| Nis2 Compliance Check | `0.5.1` | [`./nis2-compliance-check/`](./nis2-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nis2-compliance-check) |
-| Nist 800 53 Compliance Check | `0.5.1` | [`./nist-800-53-compliance-check/`](./nist-800-53-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-800-53-compliance-check) |
-| Nist Ai Rmf Compliance Check | `0.6.1` | [`./nist-ai-rmf-compliance-check/`](./nist-ai-rmf-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-ai-rmf-compliance-check) |
-| Nist Csf Compliance Check | `0.5.1` | [`./nist-csf-compliance-check/`](./nist-csf-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-csf-compliance-check) |
-| Nzism Compliance Check | `0.6.1` | [`./nzism-compliance-check/`](./nzism-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nzism-compliance-check) |
+| NIS2 Compliance Check | `0.5.1` | [`./nis2-compliance-check/`](./nis2-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nis2-compliance-check) |
+| NIST AI RMF Compliance Check | `0.6.1` | [`./nist-ai-rmf-compliance-check/`](./nist-ai-rmf-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-ai-rmf-compliance-check) |
+| NIST CSF Compliance Check | `0.5.1` | [`./nist-csf-compliance-check/`](./nist-csf-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-csf-compliance-check) |
+| NIST SP 800-53 Compliance Check | `0.5.1` | [`./nist-800-53-compliance-check/`](./nist-800-53-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nist-800-53-compliance-check) |
+| NZISM Compliance Check | `0.6.1` | [`./nzism-compliance-check/`](./nzism-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/nzism-compliance-check) |
 | Offboarding Content Finder | `0.5.0` | [`./offboarding-content-finder/`](./offboarding-content-finder/) · [live](https://marketplace.kiteworkslabs.com/catalog/offboarding-content-finder) |
-| Pci Dss Compliance Check | `0.5.1` | [`./pci-dss-compliance-check/`](./pci-dss-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/pci-dss-compliance-check) |
+| PCI DSS Compliance Check | `0.5.1` | [`./pci-dss-compliance-check/`](./pci-dss-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/pci-dss-compliance-check) |
 | Redactor | `0.5.0` | [`./redactor/`](./redactor/) · [live](https://marketplace.kiteworkslabs.com/catalog/redactor) |
 | Retention Sweeper | `1.0.2` | [`./retention-sweeper/`](./retention-sweeper/) · [live](https://marketplace.kiteworkslabs.com/catalog/retention-sweeper) |
 | Section 508 Compliance Check | `0.6.1` | [`./section-508-compliance-check/`](./section-508-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/section-508-compliance-check) |
 | Sensitive Content Scanner | `1.1.3` | [`./sensitive-content-scanner/`](./sensitive-content-scanner/) · [live](https://marketplace.kiteworkslabs.com/catalog/sensitive-content-scanner) |
 | Sharing Auditor | `1.0.2` | [`./sharing-auditor/`](./sharing-auditor/) · [live](https://marketplace.kiteworkslabs.com/catalog/sharing-auditor) |
-| Soc2 Compliance Check | `0.5.1` | [`./soc2-compliance-check/`](./soc2-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/soc2-compliance-check) |
+| SOC 2 Compliance Check | `0.5.1` | [`./soc2-compliance-check/`](./soc2-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/soc2-compliance-check) |
 | Storage Visualizer | `1.0.2` | [`./storage-visualizer/`](./storage-visualizer/) · [live](https://marketplace.kiteworkslabs.com/catalog/storage-visualizer) |
-| Vn Pdpl Compliance Check | `0.6.1` | [`./vn-pdpl-compliance-check/`](./vn-pdpl-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/vn-pdpl-compliance-check) |
-| Wcag Compliance Check | `0.6.1` | [`./wcag-compliance-check/`](./wcag-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/wcag-compliance-check) |
+| Vietnam PDPL Compliance Check | `0.6.1` | [`./vn-pdpl-compliance-check/`](./vn-pdpl-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/vn-pdpl-compliance-check) |
+| WCAG Compliance Check | `0.6.1` | [`./wcag-compliance-check/`](./wcag-compliance-check/) · [live](https://marketplace.kiteworkslabs.com/catalog/wcag-compliance-check) |
 
 </details>
 

@@ -1,4 +1,4 @@
-# Iso27701 Compliance Check
+# ISO 27701 Compliance Check
 
 `v0.5.1` · updated 2026-07-14
 
