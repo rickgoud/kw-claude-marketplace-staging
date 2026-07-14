@@ -1,5 +1,34 @@
-# sharing-auditor
+# Sharing Auditor
+
+`v1.0.2` · updated 2026-07-14
 
 Finds what's shared inside a Kiteworks folder so you can review who has access, and can save a report.
 
-Requires a Kiteworks connector named `Kiteworks` connected in Claude Cowork or Claude Code.
+**[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/sharing-auditor)** — live examples, screenshots, and full detail.
+
+## What's new
+
+Refined share and access reporting and refreshed report export.
+
+## Install
+
+Add the marketplace once, then install this agent:
+
+```
+/plugin marketplace add rickgoud/kw-claude-marketplace-staging
+/plugin install sharing-auditor@kiteworks-lite
+```
+
+**Claude Desktop:** download `sharing-auditor.plugin` (or the identical `sharing-auditor.zip` if the uploader rejects `.plugin`) and upload it via **Customize → Personal plugins → Upload plugin**.
+
+## Requires
+
+A remote MCP connector named `Kiteworks` in your Claude organization — your Kiteworks admin provides the tenant-specific link. Without it the workflows have nothing to call.
+
+## Try it
+
+- “Who can access files in the Board Docs folder?”
+- “Show me anything shared externally”
+
+---
+*Generated from the marketplace source — do not edit by hand; changes are overwritten on publish.*

@@ -1,5 +1,34 @@
-# duplicate-finder
+# Duplicate Finder
+
+`v0.5.0` · updated 2026-07-14
 
 Finds duplicate files in a Kiteworks folder and, once you approve, moves the extra copies to a review folder so you can reclaim space.
 
-Requires a Kiteworks connector named `Kiteworks` connected in Claude Cowork or Claude Code.
+**[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/duplicate-finder)** — live examples, screenshots, and full detail.
+
+## What's new
+
+Refreshed the branded PDF report and export.
+
+## Install
+
+Add the marketplace once, then install this agent:
+
+```
+/plugin marketplace add rickgoud/kw-claude-marketplace-staging
+/plugin install duplicate-finder@kiteworks-lite
+```
+
+**Claude Desktop:** download `duplicate-finder.plugin` (or the identical `duplicate-finder.zip` if the uploader rejects `.plugin`) and upload it via **Customize → Personal plugins → Upload plugin**.
+
+## Requires
+
+A remote MCP connector named `Kiteworks` in your Claude organization — your Kiteworks admin provides the tenant-specific link. Without it the workflows have nothing to call.
+
+## Try it
+
+- “Find duplicate files in the Marketing Assets folder”
+- “Move the duplicate copies to a review folder for me to check”
+
+---
+*Generated from the marketplace source — do not edit by hand; changes are overwritten on publish.*

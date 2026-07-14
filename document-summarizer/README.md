@@ -1,5 +1,34 @@
-# document-summarizer
+# Document Summarizer
 
-Finds a file in Kiteworks (Word, PDF, PowerPoint, Excel, or text) and summarizes it for you, checking it's virus/DLP-clean first and never repeating sensitive numbers like IDs verbatim -- and can save the summary back next to the file.
+`v0.5.0` · updated 2026-07-14
 
-Requires a Kiteworks connector named `Kiteworks` connected in Claude Cowork or Claude Code.
+Find and summarize documents stored in Kiteworks (docx, pdf, pptx, xlsx, and text formats) directly in chat, with compliance-aware handling of sensitivity labels and PII.
+
+**[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/document-summarizer)** — live examples, screenshots, and full detail.
+
+## What's new
+
+Major update: virus/DLP pre-checks before summarizing, PII-safe summaries that never echo IDs verbatim, wider file-type extraction, and a branded PDF report.
+
+## Install
+
+Add the marketplace once, then install this agent:
+
+```
+/plugin marketplace add rickgoud/kw-claude-marketplace-staging
+/plugin install document-summarizer@kiteworks-lite
+```
+
+**Claude Desktop:** download `document-summarizer.plugin` (or the identical `document-summarizer.zip` if the uploader rejects `.plugin`) and upload it via **Customize → Personal plugins → Upload plugin**.
+
+## Requires
+
+A remote MCP connector named `Kiteworks` in your Claude organization — your Kiteworks admin provides the tenant-specific link. Without it the workflows have nothing to call.
+
+## Try it
+
+- “Summarize the Q3 board deck in the Finance folder”
+- “Summarize the signed contract PDF and save the summary”
+
+---
+*Generated from the marketplace source — do not edit by hand; changes are overwritten on publish.*

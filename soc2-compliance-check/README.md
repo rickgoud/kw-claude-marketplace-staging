@@ -1,5 +1,34 @@
-# soc2-compliance-check
+# Soc2 Compliance Check
+
+`v0.5.1` · updated 2026-07-14
 
 Checks a Kiteworks folder for the narrow slice of SOC 2 a file-sharing platform can actually see -- sensitive content and external sharing -- and saves a report. Most of SOC 2 is outside what this can check; it says so.
 
-Requires a Kiteworks connector named `Kiteworks` connected in Claude Cowork or Claude Code.
+**[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/soc2-compliance-check)** — live examples, screenshots, and full detail.
+
+## What's new
+
+Checks a Kiteworks folder for the SOC 2-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+
+## Install
+
+Add the marketplace once, then install this agent:
+
+```
+/plugin marketplace add rickgoud/kw-claude-marketplace-staging
+/plugin install soc2-compliance-check@kiteworks-lite
+```
+
+**Claude Desktop:** download `soc2-compliance-check.plugin` (or the identical `soc2-compliance-check.zip` if the uploader rejects `.plugin`) and upload it via **Customize → Personal plugins → Upload plugin**.
+
+## Requires
+
+A remote MCP connector named `Kiteworks` in your Claude organization — your Kiteworks admin provides the tenant-specific link. Without it the workflows have nothing to call.
+
+## Try it
+
+- “Check the Vendor Share folder for SOC 2 exposure risks”
+- “Summarize this folder's SOC 2 exposure and save a report”
+
+---
+*Generated from the marketplace source — do not edit by hand; changes are overwritten on publish.*
