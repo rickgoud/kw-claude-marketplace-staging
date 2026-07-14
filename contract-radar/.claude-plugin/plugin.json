@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Finds contracts, agreements, and renewal-related documents in a Kiteworks folder, and can save a report.",
-  "displayName": "contract-radar",
+  "displayName": "Contract Radar",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "contract-radar",

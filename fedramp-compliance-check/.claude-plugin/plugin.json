@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Checks a Kiteworks folder for the narrow slice of FedRAMP a file-sharing platform can actually see -- sensitive content and external sharing -- and saves a report. Most of FedRAMP is outside what this can check; it says so.",
-  "displayName": "fedramp-compliance-check",
+  "displayName": "FedRAMP Compliance Check",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "fedramp-compliance-check",

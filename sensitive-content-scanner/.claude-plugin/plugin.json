@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Scans a Kiteworks folder for sensitive terms and common PII (like SSNs, credit card numbers, and IBANs) before you share it, and can save a report.",
-  "displayName": "sensitive-content-scanner",
+  "displayName": "Sensitive Content Scanner",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "sensitive-content-scanner",

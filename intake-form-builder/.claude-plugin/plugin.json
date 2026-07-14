@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Builds a Kiteworks intake or request form from a short description of what you need to collect.",
-  "displayName": "intake-form-builder",
+  "displayName": "Intake Form Builder",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "intake-form-builder",

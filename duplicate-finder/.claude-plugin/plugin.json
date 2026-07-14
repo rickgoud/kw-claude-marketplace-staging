@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Finds duplicate files in a Kiteworks folder and, once you approve, moves the extra copies to a review folder so you can reclaim space.",
-  "displayName": "duplicate-finder",
+  "displayName": "Duplicate Finder",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "duplicate-finder",

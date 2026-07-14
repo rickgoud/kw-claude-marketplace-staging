@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Shows what's taking up space in a Kiteworks folder -- totals, the largest files and folders, and how much is shared -- and can save a report.",
-  "displayName": "storage-visualizer",
+  "displayName": "Storage Visualizer",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "storage-visualizer",

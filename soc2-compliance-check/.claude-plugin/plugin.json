@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Checks a Kiteworks folder for the narrow slice of SOC 2 a file-sharing platform can actually see -- sensitive content and external sharing -- and saves a report. Most of SOC 2 is outside what this can check; it says so.",
-  "displayName": "soc2-compliance-check",
+  "displayName": "SOC 2 Compliance Check",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "soc2-compliance-check",

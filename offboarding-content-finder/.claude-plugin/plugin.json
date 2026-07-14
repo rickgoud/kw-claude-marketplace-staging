@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Finds everything a departing or transferring employee owns across Kiteworks, and moves confirmed items to a holding folder for review.",
-  "displayName": "offboarding-content-finder",
+  "displayName": "Offboarding Content Finder",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "offboarding-content-finder",

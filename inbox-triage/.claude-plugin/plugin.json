@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Sorts files sitting in a Kiteworks inbox or uploads folder into the right project folders, and moves them once you approve the matches.",
-  "displayName": "inbox-triage",
+  "displayName": "Inbox Triage",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "inbox-triage",

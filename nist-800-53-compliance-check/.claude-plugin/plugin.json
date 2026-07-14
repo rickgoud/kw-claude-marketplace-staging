@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Scans a Kiteworks folder for CUI/PII-shaped content and external sharing under NIST SP 800-53, and saves a report. Most of the control catalog is outside what this can check; it says so.",
-  "displayName": "nist-800-53-compliance-check",
+  "displayName": "NIST SP 800-53 Compliance Check",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "nist-800-53-compliance-check",

@@ -5,7 +5,7 @@
     "url": "https://kiteworks.com"
   },
   "description": "Scans a Kiteworks folder for card-data-shaped content and external sharing under PCI DSS, and saves a report. Network/tokenisation architecture is outside what this can check; it says so.",
-  "displayName": "pci-dss-compliance-check",
+  "displayName": "PCI DSS Compliance Check",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "pci-dss-compliance-check",
