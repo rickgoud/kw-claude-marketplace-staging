@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Summarizes what's new or changed in a Kiteworks folder over a time window, and can save a report.",
+  "displayName": "activity-digest",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "activity-digest",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "1.0.2"
+}

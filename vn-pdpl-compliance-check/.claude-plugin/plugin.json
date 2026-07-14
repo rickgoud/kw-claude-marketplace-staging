@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Scans a Kiteworks folder for personal data, external sharing, and retention gaps under Vietnam's PDPL, and saves a report.",
+  "displayName": "vn-pdpl-compliance-check",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "vn-pdpl-compliance-check",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.6.1"
+}

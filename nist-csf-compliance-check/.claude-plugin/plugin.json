@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Checks a Kiteworks folder for external sharing exposure, the one sliver of NIST CSF's Protect function a file-sharing platform can see, and saves a report. Most of NIST CSF is outside what this can check; it says so.",
+  "displayName": "nist-csf-compliance-check",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "nist-csf-compliance-check",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.5.1"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Scans a Kiteworks folder for PHI-shaped content, external sharing, and files past HIPAA's 6-year documentation-retention window, and saves a report.",
+  "displayName": "hipaa-compliance-check",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "hipaa-compliance-check",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.5.1"
+}

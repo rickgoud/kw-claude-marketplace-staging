@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Scans a Kiteworks folder for card-data-shaped content and external sharing under PCI DSS, and saves a report. Network/tokenisation architecture is outside what this can check; it says so.",
+  "displayName": "pci-dss-compliance-check",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "pci-dss-compliance-check",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.5.1"
+}

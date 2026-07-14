@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Kiteworks",
+    "url": "https://kiteworks.com"
+  },
+  "description": "Checks a Kiteworks folder for AI-related documents that are shared externally or contain personal data, under ISO 42001. Most of ISO 42001 is outside what this can check; it says so.",
+  "displayName": "iso42001-compliance-check",
+  "homepage": "https://kiteworks.com",
+  "license": "Apache-2.0",
+  "name": "iso42001-compliance-check",
+  "repository": "https://github.com/rickgoud/kw-claude-marketplace",
+  "version": "0.6.1"
+}
