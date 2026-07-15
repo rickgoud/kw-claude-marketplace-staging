@@ -21,7 +21,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "documents"
+      ],
+      "category": "documents"
     },
     {
       "name": "ccpa-compliance-check",
@@ -34,7 +38,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "cis-controls-compliance-check",
@@ -47,7 +55,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "cmmc-compliance-check",
@@ -60,7 +72,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "contract-radar",
@@ -73,7 +89,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "documents"
+      ],
+      "category": "documents"
     },
     {
       "name": "document-summarizer",
@@ -86,7 +106,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "documents"
+      ],
+      "category": "documents"
     },
     {
       "name": "dora-compliance-check",
@@ -99,7 +123,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "dpdpa-compliance-check",
@@ -112,7 +140,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "duplicate-finder",
@@ -125,7 +157,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "administrative"
+      ],
+      "category": "administrative"
     },
     {
       "name": "ear-compliance-check",
@@ -138,7 +174,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "eu-ai-act-compliance-check",
@@ -151,7 +191,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "fedramp-compliance-check",
@@ -164,7 +208,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "folder-expiry-audit",
@@ -177,7 +225,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "governance"
+      ],
+      "category": "governance"
     },
     {
       "name": "gdpr-compliance-check",
@@ -190,7 +242,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "hipaa-compliance-check",
@@ -203,7 +259,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "inbox-triage",
@@ -216,7 +276,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "administrative"
+      ],
+      "category": "administrative"
     },
     {
       "name": "intake-form-builder",
@@ -229,7 +293,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "documents"
+      ],
+      "category": "documents"
     },
     {
       "name": "invoice-organizer",
@@ -242,7 +310,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "documents"
+      ],
+      "category": "documents"
     },
     {
       "name": "ism-au-compliance-check",
@@ -255,7 +327,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "iso27001-compliance-check",
@@ -268,7 +344,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "iso27701-compliance-check",
@@ -281,7 +361,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "iso42001-compliance-check",
@@ -294,7 +378,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "itar-compliance-check",
@@ -307,7 +395,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "lgpd-compliance-check",
@@ -320,7 +412,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "naming-cleanup",
@@ -333,7 +429,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "administrative"
+      ],
+      "category": "administrative"
     },
     {
       "name": "nis2-compliance-check",
@@ -346,7 +446,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "nist-800-53-compliance-check",
@@ -359,7 +463,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "nist-ai-rmf-compliance-check",
@@ -372,7 +480,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "nist-csf-compliance-check",
@@ -385,7 +497,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "nzism-compliance-check",
@@ -398,7 +514,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "offboarding-content-finder",
@@ -411,7 +531,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "governance"
+      ],
+      "category": "governance"
     },
     {
       "name": "pci-dss-compliance-check",
@@ -424,7 +548,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "redactor",
@@ -437,7 +565,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "dlp"
+      ],
+      "category": "dlp"
     },
     {
       "name": "retention-sweeper",
@@ -450,7 +582,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "governance"
+      ],
+      "category": "governance"
     },
     {
       "name": "section-508-compliance-check",
@@ -463,7 +599,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "sensitive-content-scanner",
@@ -476,7 +616,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "dlp"
+      ],
+      "category": "dlp"
     },
     {
       "name": "sharing-auditor",
@@ -489,7 +633,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "security"
+      ],
+      "category": "security"
     },
     {
       "name": "soc2-compliance-check",
@@ -502,7 +650,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "storage-visualizer",
@@ -515,7 +667,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "administrative"
+      ],
+      "category": "administrative"
     },
     {
       "name": "vn-pdpl-compliance-check",
@@ -528,7 +684,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     },
     {
       "name": "wcag-compliance-check",
@@ -541,7 +701,11 @@
         "url": "https://kiteworks.com"
       },
       "homepage": "https://kiteworks.com",
-      "license": "Apache-2.0"
+      "license": "Apache-2.0",
+      "keywords": [
+        "compliance"
+      ],
+      "category": "compliance"
     }
   ]
 }
