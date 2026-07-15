@@ -1,6 +1,6 @@
 # Naming Cleanup
 
-`v0.5.0` · updated 2026-07-14
+`v0.5.1` · updated 2026-07-15
 
 Cleans up inconsistent or version-sprawled file names in a Kiteworks folder, and renames them once you approve.
 
@@ -8,7 +8,7 @@ Cleans up inconsistent or version-sprawled file names in a Kiteworks folder, and
 
 ## What's new
 
-Refreshed the branded PDF report and export.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

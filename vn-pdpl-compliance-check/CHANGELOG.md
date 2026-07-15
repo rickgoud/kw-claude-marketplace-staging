@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.2 — 2026-07-15
+
+Refined the Vietnam PDPL checks and PII term matching; refreshed the branded report and safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/surface-gate/SKILL.md
+- changed: skills/term-sweep/SKILL.md
+- changed: skills/term-sweep/scripts/pii_patterns.py
+- changed: skills/vn-pdpl-compliance-check/SKILL.md
+
 ## 0.6.1 — 2026-07-14
 
 Checks a Kiteworks folder for the Vietnam's PDPL-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.

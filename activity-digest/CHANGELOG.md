@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.3 — 2026-07-15
+
+Refreshed the branded report and the safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/surface-gate/SKILL.md
+
 ## 1.0.2 — 2026-07-14
 
 Refreshed the saved activity report (branded PDF + export) and tightened change detection.

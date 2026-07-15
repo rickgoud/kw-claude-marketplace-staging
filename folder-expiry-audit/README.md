@@ -1,6 +1,6 @@
 # Folder Expiry Audit
 
-`v0.1.1` · updated 2026-07-14
+`v0.2.0` · updated 2026-07-15
 
 Reports which Kiteworks folders have an expiry/retention policy configured and which don't.
 
@@ -8,7 +8,7 @@ Reports which Kiteworks folders have an expiry/retention policy configured and w
 
 ## What's new
 
-Refined the retention/expiry policy audit.
+Refreshed the safety pre-check.
 
 ## Install
 

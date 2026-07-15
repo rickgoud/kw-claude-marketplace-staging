@@ -1,6 +1,6 @@
 # EAR Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Scans a Kiteworks folder for export-controlled technology descriptions and external/foreign sharing under EAR, and saves a report. ECCN classification is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for export-controlled technology descriptions and exter
 
 ## What's new
 
-Checks a Kiteworks folder for the EAR-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the EAR checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

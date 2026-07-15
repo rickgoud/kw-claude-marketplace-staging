@@ -1,6 +1,6 @@
 # SOC 2 Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for the narrow slice of SOC 2 a file-sharing platform can actually see -- sensitive content and external sharing -- and saves a report. Most of SOC 2 is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for the narrow slice of SOC 2 a file-sharing platform 
 
 ## What's new
 
-Checks a Kiteworks folder for the SOC 2-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the SOC 2 checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

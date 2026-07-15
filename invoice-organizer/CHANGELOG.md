@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1 — 2026-07-15
+
+Refreshed the branded report and the safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/surface-gate/SKILL.md
+
 ## 0.5.0 — 2026-07-14
 
 Finds invoices and receipts (including photos and scans) in a Kiteworks folder, extracts vendor, date, amount, and tax, and — on your approval — renames them consistently and builds a categorized spreadsheet for expenses or taxes.

@@ -1,6 +1,6 @@
 # Invoice Organizer
 
-`v0.5.0` · updated 2026-07-14
+`v0.5.1` · updated 2026-07-15
 
 Finds invoices and receipts in a Kiteworks folder (including photos and scans), pulls out vendor, date, amount, and tax info, and -- once you approve -- renames them consistently and gives you a categorized spreadsheet for expenses or taxes.
 
@@ -8,7 +8,7 @@ Finds invoices and receipts in a Kiteworks folder (including photos and scans), 
 
 ## What's new
 
-Finds invoices and receipts (including photos and scans) in a Kiteworks folder, extracts vendor, date, amount, and tax, and — on your approval — renames them consistently and builds a categorized spreadsheet for expenses or taxes.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

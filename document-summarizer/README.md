@@ -1,6 +1,6 @@
 # Document Summarizer
 
-`v0.5.0` · updated 2026-07-14
+`v0.5.1` · updated 2026-07-15
 
 Find and summarize documents stored in Kiteworks (docx, pdf, pptx, xlsx, and text formats) directly in chat, with compliance-aware handling of sensitivity labels and PII.
 
@@ -8,7 +8,7 @@ Find and summarize documents stored in Kiteworks (docx, pdf, pptx, xlsx, and tex
 
 ## What's new
 
-Major update: virus/DLP pre-checks before summarizing, PII-safe summaries that never echo IDs verbatim, wider file-type extraction, and a branded PDF report.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # ITAR Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Scans a Kiteworks folder for ITAR-controlled technical-data content and external/foreign sharing, and saves a report. Export licensing determinations are outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for ITAR-controlled technical-data content and external
 
 ## What's new
 
-Checks a Kiteworks folder for the ITAR-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the ITAR checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # Contract Radar
 
-`v1.0.3` · updated 2026-07-14
+`v1.0.4` · updated 2026-07-15
 
 Finds contracts, agreements, and renewal-related documents in a Kiteworks folder, and can save a report.
 
@@ -8,7 +8,7 @@ Finds contracts, agreements, and renewal-related documents in a Kiteworks folder
 
 ## What's new
 
-Improved contract and renewal extraction and refreshed the branded PDF report.
+Refined contract and renewal term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

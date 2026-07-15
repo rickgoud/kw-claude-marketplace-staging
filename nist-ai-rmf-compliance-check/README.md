@@ -1,6 +1,6 @@
 # NIST AI RMF Compliance Check
 
-`v0.6.1` · updated 2026-07-14
+`v0.6.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for AI-related documents that are shared externally or contain personal data, under NIST AI RMF. Most of NIST AI RMF is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for AI-related documents that are shared externally or
 
 ## What's new
 
-Checks a Kiteworks folder for the NIST AI RMF-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the NIST AI RMF checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

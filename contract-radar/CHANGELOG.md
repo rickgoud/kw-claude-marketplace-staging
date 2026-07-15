@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.4 — 2026-07-15
+
+Refined contract and renewal term matching; refreshed the branded report and safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/surface-gate/SKILL.md
+- changed: skills/term-sweep/SKILL.md
+- changed: skills/term-sweep/scripts/pii_patterns.py
+
 ## 1.0.3 — 2026-07-14
 
 Improved contract and renewal extraction and refreshed the branded PDF report.

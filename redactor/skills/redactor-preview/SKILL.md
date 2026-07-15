@@ -8,7 +8,7 @@ description: >
   these documents." Read-only: proposes what would change and in which
   files, creates and changes nothing.
 metadata:
-  version: "0.1.0"
+  version: "0.3.0"
 ---
 
 Delegate to the `redactor-preview` subagent. Read `../content-extract/SKILL.md` first, and `../term-sweep/SKILL.md` if the user wants built-in PII pattern redaction rather than a literal term.
@@ -22,7 +22,7 @@ Creating a modified copy of a document's actual content is the most consequentia
 ## Two modes — ask the user which they mean
 
 1. **Literal find-and-replace**: the user supplies an exact search string and a replacement (e.g. "Rick Goud" → "John Doe"). The string is already known to the user — it's fine to show match counts and location context (page/paragraph/cell reference) since there's no confidentiality concern in the term itself. Still never dump full surrounding file content into chat.
-2. **Pattern-based redaction**: the user wants built-in PII categories (SSN, Dutch BSN, credit card, IBAN, AWS key) or a custom term list replaced with a placeholder (e.g. `[REDACTED-SSN]`). Follow `term-sweep`'s privacy rule exactly — never print the matched value, only counts per category/term.
+2. **Pattern-based redaction**: the user wants built-in PII categories or a custom term list replaced with a placeholder (e.g. `[REDACTED-SSN]`). All built-in categories are available by default, same as `sensitive-content-scanner` — don't single out a country-specific one (e.g. Dutch BSN) as needing separate confirmation. If the user wants a narrower set, offer `term-sweep`'s tag-based `--categories` selector (exact category, `region:`, `type:`, or `all`). Follow `term-sweep`'s privacy rule exactly — never print the matched value, only counts per category/term.
 
 Ask which mode, the term list or PII categories, the replacement value or placeholder, and the folder scope (required).
 

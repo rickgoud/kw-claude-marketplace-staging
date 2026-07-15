@@ -1,6 +1,6 @@
 # NZISM Compliance Check
 
-`v0.6.1` · updated 2026-07-14
+`v0.6.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for classification-marked content and external sharing under New Zealand's NZISM, and saves a report. Most of NZISM is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for classification-marked content and external sharing
 
 ## What's new
 
-Checks a Kiteworks folder for the NZISM-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the NZISM checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # GDPR Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Scans a Kiteworks folder for personal data, external sharing, and files older than your retention policy under GDPR, and saves a report. Covers the same ground GDPR's storage-limitation and exposure concerns care about.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for personal data, external sharing, and files older th
 
 ## What's new
 
-Checks a Kiteworks folder for the GDPR-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the GDPR checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

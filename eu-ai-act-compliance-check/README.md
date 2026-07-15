@@ -1,6 +1,6 @@
 # EU AI Act Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for AI-related documents that are shared externally or contain personal/biometric data, under the EU AI Act. Most of the EU AI Act is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for AI-related documents that are shared externally or
 
 ## What's new
 
-Checks a Kiteworks folder for the EU AI Act-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the EU AI Act checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # NIST CSF Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for external sharing exposure, the one sliver of NIST CSF's Protect function a file-sharing platform can see, and saves a report. Most of NIST CSF is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for external sharing exposure, the one sliver of NIST 
 
 ## What's new
 
-Checks a Kiteworks folder for the NIST CSF-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the NIST CSF checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

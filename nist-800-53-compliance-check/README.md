@@ -1,6 +1,6 @@
 # NIST SP 800-53 Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Scans a Kiteworks folder for CUI/PII-shaped content and external sharing under NIST SP 800-53, and saves a report. Most of the control catalog is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for CUI/PII-shaped content and external sharing under N
 
 ## What's new
 
-Checks a Kiteworks folder for the NIST 800-53-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the NIST 800-53 checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

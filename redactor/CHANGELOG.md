@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.1 — 2026-07-15
+
+Improved the redaction preview and term matching; refreshed the branded report and safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/redactor-preview/SKILL.md
+- changed: skills/surface-gate/SKILL.md
+- changed: skills/term-sweep/SKILL.md
+- changed: skills/term-sweep/scripts/pii_patterns.py
+
 ## 0.5.0 — 2026-07-14
 
 Improved content extraction and the redaction apply step; refreshed report export.

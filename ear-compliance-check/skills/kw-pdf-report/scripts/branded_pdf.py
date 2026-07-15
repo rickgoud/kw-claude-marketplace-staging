@@ -40,7 +40,7 @@ Usage (see also SKILL.md):
         scanned_by="Rick Goud (rick.goud@kiteworks.com)",
         generated_on="2026-07-14",
     ) + [
-        ("Terms / patterns checked", "confidential, ITAR; built-in: SSN, BSN, credit card, IBAN, AWS key"),
+        ("Terms / patterns checked", "confidential, ITAR; built-in: SSN, BSN, credit card, IBAN, AWS key (all checked by default)"),
     ]
 
     build_branded_pdf(

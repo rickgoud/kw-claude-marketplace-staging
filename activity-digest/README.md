@@ -1,6 +1,6 @@
 # Activity Digest
 
-`v1.0.2` · updated 2026-07-14
+`v1.0.3` · updated 2026-07-15
 
 Summarizes what's new or changed in a Kiteworks folder over a time window, and can save a report.
 
@@ -8,7 +8,7 @@ Summarizes what's new or changed in a Kiteworks folder over a time window, and c
 
 ## What's new
 
-Refreshed the saved activity report (branded PDF + export) and tightened change detection.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # Sensitive Content Scanner
 
-`v1.1.3` · updated 2026-07-14
+`v1.3.0` · updated 2026-07-15
 
 Scans a Kiteworks folder for sensitive terms and common PII (like SSNs, credit card numbers, and IBANs) before you share it, and can save a report.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for sensitive terms and common PII (like SSNs, credit c
 
 ## What's new
 
-Improved PII and sensitive-term detection and refreshed report export.
+Improved sensitive-term and PII detection; refreshed the branded report and safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # PCI DSS Compliance Check
 
-`v0.5.1` · updated 2026-07-14
+`v0.5.2` · updated 2026-07-15
 
 Scans a Kiteworks folder for card-data-shaped content and external sharing under PCI DSS, and saves a report. Network/tokenisation architecture is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Scans a Kiteworks folder for card-data-shaped content and external sharing under
 
 ## What's new
 
-Checks a Kiteworks folder for the PCI DSS-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the PCI DSS checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

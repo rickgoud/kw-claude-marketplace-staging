@@ -1,6 +1,6 @@
 # Retention Sweeper
 
-`v1.0.2` · updated 2026-07-14
+`v1.0.3` · updated 2026-07-15
 
 Finds files in a Kiteworks folder that are past a retention deadline you set, and can save a report of what it found.
 
@@ -8,7 +8,7 @@ Finds files in a Kiteworks folder that are past a retention deadline you set, an
 
 ## What's new
 
-Refined overdue-file detection and refreshed report export.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

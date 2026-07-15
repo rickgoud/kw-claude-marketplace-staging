@@ -4,11 +4,11 @@
     "name": "Kiteworks",
     "url": "https://kiteworks.com"
   },
-  "description": "Runs a shallow accessibility structure check (tagged PDFs, document/slide metadata, alt text, and HTML heading structure) over PDF, Word, PowerPoint, and HTML files in a Kiteworks folder under WCAG, and saves a report. This is not a full WCAG conformance test.",
+  "description": "Runs a real accessibility structure check (tagged PDFs, document metadata, alt text across PDF/DOCX/PPTX/HTML) over documents in a Kiteworks folder under WCAG, and saves a report. This is not a full WCAG conformance test.",
   "displayName": "WCAG Compliance Check",
   "homepage": "https://kiteworks.com",
   "license": "Apache-2.0",
   "name": "wcag-compliance-check",
   "repository": "https://github.com/rickgoud/kw-claude-marketplace",
-  "version": "0.6.1"
+  "version": "0.6.2"
 }

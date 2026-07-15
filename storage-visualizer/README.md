@@ -1,6 +1,6 @@
 # Storage Visualizer
 
-`v1.0.2` · updated 2026-07-14
+`v1.0.3` · updated 2026-07-15
 
 Shows what's taking up space in a Kiteworks folder -- totals, the largest files and folders, and how much is shared -- and can save a report.
 
@@ -8,7 +8,7 @@ Shows what's taking up space in a Kiteworks folder -- totals, the largest files 
 
 ## What's new
 
-Refined the storage breakdown and refreshed report export.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

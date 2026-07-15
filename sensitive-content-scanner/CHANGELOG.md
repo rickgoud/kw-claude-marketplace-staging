@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3.0 — 2026-07-15
+
+Improved sensitive-term and PII detection; refreshed the branded report and safety pre-check.
+
+- changed: agents/sensitive-content-scanner.md
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/sensitive-content-scanner/SKILL.md
+- changed: skills/surface-gate/SKILL.md
+- changed: skills/term-sweep/SKILL.md
+- changed: skills/term-sweep/scripts/pii_patterns.py
+
 ## 1.1.3 — 2026-07-14
 
 Improved PII and sensitive-term detection and refreshed report export.

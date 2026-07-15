@@ -1,6 +1,6 @@
 # Sharing Auditor
 
-`v1.0.2` · updated 2026-07-14
+`v1.0.3` · updated 2026-07-15
 
 Finds what's shared inside a Kiteworks folder so you can review who has access, and can save a report.
 
@@ -8,7 +8,7 @@ Finds what's shared inside a Kiteworks folder so you can review who has access, 
 
 ## What's new
 
-Refined share and access reporting and refreshed report export.
+Refreshed the branded report and the safety pre-check.
 
 ## Install
 

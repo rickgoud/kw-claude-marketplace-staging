@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.2 — 2026-07-15
+
+Refined the NIST CSF checks and PII term matching; refreshed the branded report and safety pre-check.
+
+- changed: skills/kw-pdf-report/scripts/branded_pdf.py
+- changed: skills/nist-csf-compliance-check/SKILL.md
+- changed: skills/surface-gate/SKILL.md
+- changed: skills/term-sweep/SKILL.md
+- changed: skills/term-sweep/scripts/pii_patterns.py
+
 ## 0.5.1 — 2026-07-14
 
 Checks a Kiteworks folder for the NIST CSF-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.

@@ -1,6 +1,6 @@
 # Section 508 Compliance Check
 
-`v0.6.1` · updated 2026-07-14
+`v0.6.2` · updated 2026-07-15
 
 Runs a shallow accessibility structure check (tagged PDFs, document/slide metadata, alt text, and HTML heading structure) over PDF, Word, PowerPoint, and HTML files in a Kiteworks folder under Section 508, and saves a report. This is not a full VPAT/ACR conformance test.
 
@@ -8,7 +8,7 @@ Runs a shallow accessibility structure check (tagged PDFs, document/slide metada
 
 ## What's new
 
-Checks a Kiteworks folder for the Section 508-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the Section 508 checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

@@ -1,6 +1,6 @@
 # Redactor
 
-`v0.5.0` · updated 2026-07-14
+`v0.5.1` · updated 2026-07-15
 
 Finds and replaces specific text -- like a name or other sensitive information -- across documents in a Kiteworks folder, and creates redacted copies once you approve. Originals are never changed.
 
@@ -8,7 +8,7 @@ Finds and replaces specific text -- like a name or other sensitive information -
 
 ## What's new
 
-Improved content extraction and the redaction apply step; refreshed report export.
+Improved the redaction preview and term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

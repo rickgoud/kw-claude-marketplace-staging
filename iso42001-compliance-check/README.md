@@ -1,6 +1,6 @@
 # ISO 42001 Compliance Check
 
-`v0.6.1` · updated 2026-07-14
+`v0.6.2` · updated 2026-07-15
 
 Checks a Kiteworks folder for AI-related documents that are shared externally or contain personal data, under ISO 42001. Most of ISO 42001 is outside what this can check; it says so.
 
@@ -8,7 +8,7 @@ Checks a Kiteworks folder for AI-related documents that are shared externally or
 
 ## What's new
 
-Checks a Kiteworks folder for the ISO 42001-relevant signals a file-sharing platform can actually see — sensitive content and external sharing — and saves a report, clearly flagging what falls outside its view.
+Refined the ISO 42001 checks and PII term matching; refreshed the branded report and safety pre-check.
 
 ## Install
 

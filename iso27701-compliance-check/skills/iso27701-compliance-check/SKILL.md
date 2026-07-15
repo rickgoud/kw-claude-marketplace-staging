@@ -7,7 +7,7 @@ description: >
   to ask for. Fit tier: Strong -- see below for what this can and can't
   actually check.
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
 ---
 
 Delegate to the `iso27701-compliance-check` subagent on surfaces that support it (Claude Code, Cowork). If it reports no tools or fabricates results without tool calls, discard and check the `Kiteworks` connector. On other surfaces, follow this skill directly.

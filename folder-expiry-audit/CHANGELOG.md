@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0 — 2026-07-15
+
+Refreshed the safety pre-check.
+
+- changed: skills/surface-gate/SKILL.md
+
 ## 0.1.1 — 2026-07-14
 
 Refined the retention/expiry policy audit.
