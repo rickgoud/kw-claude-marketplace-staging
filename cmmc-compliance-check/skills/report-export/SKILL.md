@@ -40,7 +40,11 @@ Write files per run into the destination folder, using a deterministic, collisio
 
 1. **`<agent-name>-<YYYY-MM-DD>.csv`** — every row of detailed results. Ask the user whether the CSV should contain only flagged/actionable items or the full scanned set with a flag column — default to full scanned set with a boolean/status column when the user hasn't said.
 2. **`<agent-name>-<YYYY-MM-DD>.txt`** (or **`.pdf`** if the user prefers a non-editable format — build it via `kw-pdf-report`, then upload the local file with `upload_file_from_path`, never base64 through `create_file_from_content` — see the corrected rule above) — a human-readable narrative: summary counts, top items, coverage/truncation caveats, and the disclaimer below.
-3. Embed this disclaimer verbatim in both the txt/pdf and as a comment header line atop the CSV: `"Productivity-grade, best-effort output. Legal hold and tenant retention policy were NOT evaluated. These are review candidates only — NOT a deletion or disposition basis."`
+3. Embed both layers verbatim in the txt/PDF narrative and as two `# ...` comment header lines atop the CSV:
+   - **Legal layer (generated from the install disclaimer at publish time):** Kiteworks agents are provided **as is**. They are helpful, but they can be wrong. You are responsible for checking what an agent produces before you rely on it, and Kiteworks is not liable for outcomes from using them.
+   - **Scope caveat for this agent:** This CMMC Compliance Check report is a best-effort assessment based only on the Kiteworks content and metadata scanned. It is not a certification, audit opinion, professional advice, or legal determination of compliance; unscanned systems, controls, processes, and evidence were not evaluated.
+   For PDF, pass the scope caveat as `scope_caveat` to `build_branded_pdf()`; the legal layer is fixed by the published builder and cannot be omitted by a caller.
+4. If no file is exported, append both layers to the final chat response whenever it presents completed assessment or scan results.
 
 ## Every report must say who ran it and what it covered
 

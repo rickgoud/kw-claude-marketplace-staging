@@ -28,6 +28,11 @@ Four problems this solves at once:
    actual descriptive title into the body, as the first thing after the
    hero, where there's no positioning conflict.
 
+5. Portable reports need the same legal limitation users accepted at install.
+   Marketplace publishing stamps that single-source legal layer into this module;
+   every PDF page renders it in the footer, outside caller control. The caller
+   must still provide this plugin's own scope caveat.
+
 Usage (see also SKILL.md):
     from branded_pdf import build_branded_pdf, safe_table, standard_metadata
 
@@ -55,7 +60,7 @@ Usage (see also SKILL.md):
                 "col_widths_frac": [0.25, 0.35, 0.15, 0.25],
             }},
         ],
-        disclaimer="Productivity-grade, best-effort output...",
+        scope_caveat="Plugin-specific scope caveat...",
     )
 """
 import os
@@ -95,6 +100,8 @@ PAGE_W, PAGE_H = PAGE_SIZE
 MARGIN = 0.75 * inch
 HERO_HEIGHT = 0.95 * inch  # logo + eyebrow only now -- no title crammed in here
 
+LEGAL_DISCLAIMER = 'Kiteworks agents are provided **as is**. They are helpful, but they can be wrong. You are responsible for checking what an agent produces before you rely on it, and Kiteworks is not liable for outcomes from using them.'
+
 FONT_BODY = "Helvetica"
 FONT_BODY_BOLD = "Helvetica-Bold"
 FONT_MONO = "Courier"
@@ -126,6 +133,10 @@ _meta_value_style = ParagraphStyle(
 )
 _disclaimer_style = ParagraphStyle(
     "kw_disclaimer", fontName=FONT_BODY, fontSize=8, leading=11, textColor=FG_PAPER_2, spaceBefore=10,
+)
+_legal_footer_style = ParagraphStyle(
+    "kw_legal_footer", fontName=FONT_BODY, fontSize=6.25, leading=7.5,
+    textColor=FG_PAPER_2,
 )
 _badge_style = ParagraphStyle(
     "kw_badge", fontName=FONT_MONO_BOLD, fontSize=8, leading=10, textColor=ELECTRIC_INDIGO,
@@ -392,12 +403,15 @@ def _footer(canvas_obj, doc):
     canvas_obj.saveState()
     canvas_obj.setFont(FONT_MONO, 8)
     canvas_obj.setFillColor(FG_PAPER_2)
-    canvas_obj.drawString(MARGIN, 0.5 * inch, "Kiteworks Agents")
-    canvas_obj.drawRightString(PAGE_W - MARGIN, 0.5 * inch, "Page %d" % canvas_obj.getPageNumber())
+    canvas_obj.drawString(MARGIN, 0.68 * inch, "Kiteworks Agents")
+    canvas_obj.drawRightString(PAGE_W - MARGIN, 0.68 * inch, "Page %d" % canvas_obj.getPageNumber())
+    legal_footer = Paragraph(LEGAL_DISCLAIMER, _legal_footer_style)
+    legal_footer.wrapOn(canvas_obj, _printable_width(), 0.42 * inch)
+    legal_footer.drawOn(canvas_obj, MARGIN, 0.16 * inch)
     canvas_obj.restoreState()
 
 
-def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=None, disclaimer=None,
+def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=None, scope_caveat=None,
                        fit_tier=None, operational_status=None, scope=None, limitations=None,
                        recommended_next_steps=None):
     """`report_title` is now rendered ONCE, as the first thing in the body
@@ -408,6 +422,10 @@ def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=
     `metadata`: build the generic part with `standard_metadata()` and
     extend it with this agent's own specific rows (term list, retention
     threshold, time window, ...) before passing it in here.
+
+    `scope_caveat`: the required plugin-specific statement of what this report
+    did and did not evaluate. The legal disclaimer is publish-injected and is
+    always rendered in the page footer; callers cannot replace or omit it.
 
     sections: list of dicts, each either
        {"heading": str, "paragraph": str}
@@ -434,6 +452,13 @@ def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=
     third matching note box immediately after Limitations -- concrete,
     framework-specific actions the organization should take beyond this
     scan, not generic advice."""
+    if not LEGAL_DISCLAIMER:
+        raise RuntimeError(
+            "legal disclaimer was not injected; publish this plugin before generating a PDF"
+        )
+    if not scope_caveat:
+        raise ValueError("scope_caveat is required for every branded report")
+
     def _on_page(canvas_obj, doc_obj):
         _draw_hero(canvas_obj, agent_name)
         _footer(canvas_obj, doc_obj)
@@ -444,7 +469,7 @@ def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=
         leftMargin=MARGIN,
         rightMargin=MARGIN,
         topMargin=HERO_HEIGHT + 0.35 * inch,
-        bottomMargin=MARGIN,
+        bottomMargin=1.05 * inch,
         title=report_title,
     )
 
@@ -491,9 +516,8 @@ def build_branded_pdf(output_path, agent_name, report_title, sections, metadata=
         story.append(_note_box("Recommended Next Steps", recommended_next_steps))
         story.append(Spacer(1, 10))
 
-    if disclaimer:
-        story.append(HRFlowable(width="100%", thickness=0.5, color=BORDER_PAPER, spaceBefore=10, spaceAfter=6))
-        story.append(Paragraph(disclaimer, _disclaimer_style))
+    story.append(HRFlowable(width="100%", thickness=0.5, color=BORDER_PAPER, spaceBefore=10, spaceAfter=6))
+    story.append(Paragraph(scope_caveat, _disclaimer_style))
 
     doc.build(story, onFirstPage=_on_page, onLaterPages=_on_page)
     return output_path
@@ -513,7 +537,7 @@ if __name__ == "__main__":
         report_title=spec["report_title"],
         sections=spec["sections"],
         metadata=spec.get("metadata"),
-        disclaimer=spec.get("disclaimer"),
+        scope_caveat=spec.get("scope_caveat"),
         fit_tier=spec.get("fit_tier"),
         operational_status=spec.get("operational_status"),
         scope=spec.get("scope"),
