@@ -8,6 +8,12 @@ Productivity-grade (Lite) Kiteworks agents for Claude — direct-MCP, best-effor
 
 Recent additions and announcements: **https://marketplace.kiteworkslabs.com/whats-new**
 
+## Before you install — the short version
+
+Kiteworks agents are provided **as is**. They are helpful, but they can be wrong. You are responsible for checking what an agent produces before you rely on it, and Kiteworks is not liable for outcomes from using them.
+
+[Read the full install disclaimer](https://marketplace.kiteworkslabs.com/legal/install-disclaimer) · Version `1.0` · Effective 2026-07-16
+
 ## Prerequisite — the Kiteworks connector
 
 Every agent calls Kiteworks through a remote MCP connector referenced by the logical name `Kiteworks` — no URL or credential is bundled. In your Claude organization, add the remote MCP connector and name it `Kiteworks` (your Kiteworks admin provides the tenant-specific link). Without it the workflows have nothing to call.

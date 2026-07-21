@@ -6,6 +6,12 @@ Builds a Kiteworks intake or request form from a short description of what you n
 
 **[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/intake-form-builder)** — live examples, screenshots, and full detail.
 
+## Before you install — the short version
+
+Kiteworks agents are provided **as is**. They are helpful, but they can be wrong. You are responsible for checking what an agent produces before you rely on it, and Kiteworks is not liable for outcomes from using them.
+
+[Read the full install disclaimer](https://marketplace.kiteworkslabs.com/legal/install-disclaimer) · Version `1.0` · Effective 2026-07-16
+
 ## What's new
 
 Turns a short plain-language description into a ready-to-use Kiteworks intake/request form — stand up a collection workflow without hand-building fields.

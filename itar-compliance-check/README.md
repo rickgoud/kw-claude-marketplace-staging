@@ -6,6 +6,12 @@ Scans a Kiteworks folder for ITAR-controlled technical-data content and external
 
 **[View on the Kiteworks Agent Marketplace →](https://marketplace.kiteworkslabs.com/catalog/itar-compliance-check)** — live examples, screenshots, and full detail.
 
+## Before you install — the short version
+
+Kiteworks agents are provided **as is**. They are helpful, but they can be wrong. You are responsible for checking what an agent produces before you rely on it, and Kiteworks is not liable for outcomes from using them.
+
+[Read the full install disclaimer](https://marketplace.kiteworkslabs.com/legal/install-disclaimer) · Version `1.0` · Effective 2026-07-16
+
 ## What's new
 
 Refined the ITAR checks and PII term matching; refreshed the branded report and safety pre-check.
